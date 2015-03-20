@@ -3,18 +3,18 @@ package com.company;
 public class CalcAlina {
 
     public static void main(String[] args) throws Exception  {
-        byte[] entry = new byte[5];
+        byte[] entry = new byte[20];
         System.out.println("Enter number a and press enter ");
         System.in.read(entry);
         int a  = Integer.parseInt(new String(entry).trim());
 
-        entry = new byte[5];
+        entry = new byte[20];
         System.out.println ("Enter operator +,-,* or / and press enter");
         System.in.read(entry);
         String op = new String(entry).trim();
 
 
-        entry = new byte[5];
+        entry = new byte[20];
         System.out.println("Enter number b and press enter");
         System.in.read (entry);
         int b  = Integer.parseInt(new String(entry).trim());
@@ -31,13 +31,8 @@ public class CalcAlina {
         }else {
             System.out.println ( "Unknown operator. Please, refine your entry.");
         }
-
-
-
-
-
-
-
+		
+		
     }
 }
 
