@@ -1,6 +1,6 @@
 package com.company;
 
-public class task1CalcAlina {
+public class task1_1CalcAlina {
 
     public static void main(String[] args) throws Exception  {
         byte[] entry = new byte[20];

@@ -3,7 +3,7 @@ package com.company;
 /**
  * sort array on string length
  */
-public class task2arraySort {
+public class task1_2arraySort {
     public static void main(String[]argh) {
         String[] strings = new String[5];
         strings[0] = "Mishka the dog";

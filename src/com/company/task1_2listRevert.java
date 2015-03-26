@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * reverse strings in the list
  */
-public class task2listRevert {
+public class task1_2listRevert {
     public static void main(String[ ] args)
     {
         List<String> arrayList= new ArrayList<String>();
